@@ -1,0 +1,16 @@
+---
+title: "Gallery"
+lightbox: true
+---
+
+::: {layout-ncol=2}
+
+![](images/gallery/demo01.png){group="my-gallery"}
+
+![](images/gallery/demo02.png){group="my-gallery"}
+
+![](images/gallery/demo03.png){group="my-gallery"}
+
+![](images/gallery/demo04.png){group="my-gallery"}
+
+:::

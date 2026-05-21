@@ -1,0 +1,23 @@
+[
+  {
+    "label": "Quarto: Preview",
+    "command": "quarto preview",
+    "use_new_terminal": true,
+    "allow_concurrent_runs": false,
+    "reveal": "always"
+  },
+  {
+    "label": "Quarto: Render",
+    "command": "quarto render",
+    "use_new_terminal": true,
+    "allow_concurrent_runs": false,
+    "reveal": "always"
+  },
+  {
+    "label": "Quarto: Render then Preview",
+    "command": "quarto render; if ($?) { quarto preview }",
+    "use_new_terminal": true,
+    "allow_concurrent_runs": false,
+    "reveal": "always"
+  }
+]

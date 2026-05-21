@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Get-ChildItem -Path \"C:\\\\Users\\\\pebenbow\\\\Documents\\\\repos\\\\carolina-aerial-site\" -Force)",
+      "PowerShell(Get-ChildItem -Path \"C:\\\\Users\\\\pebenbow\\\\Documents\\\\repos\\\\carolina-aerial-site\" -Recurse -File -Force | ForEach-Object { $_.FullName })",
+      "Bash(git config *)",
+      "Bash(quarto --version)",
+      "Bash(quarto render *)",
+      "Bash(Get-ChildItem -Recurse \"C:\\\\Users\\\\pebenbow\\\\Documents\\\\repos\\\\carolina-aerial-site\\\\.claude\")",
+      "Bash(Remove-Item -ErrorAction SilentlyContinue \"C:\\\\Users\\\\pebenbow\\\\Documents\\\\repos\\\\carolina-aerial-site\\\\contact.html\")",
+      "Bash(git add *)"
+    ]
+  }
+}

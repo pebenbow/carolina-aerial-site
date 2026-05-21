@@ -1,0 +1,29 @@
+project:
+  type: website
+  render:
+    - "*.qmd"
+
+website:
+  title: "Carolina Aerial Wash"
+  navbar:
+    search: false
+    logo: images/logo.PNG
+    logo-alt: "Carolina Aerial Wash"
+    logo-href: index.qmd
+    left:
+      - href: index.qmd
+        text: Home
+      - href: services.qmd
+        text: Services
+      - href: gallery.qmd
+        text: Gallery
+      - href: about.qmd
+        text: About
+      - href: contact.qmd
+        text: Contact
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: false
