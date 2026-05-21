@@ -8,7 +8,9 @@
       "Bash(quarto render *)",
       "Bash(Get-ChildItem -Recurse \"C:\\\\Users\\\\pebenbow\\\\Documents\\\\repos\\\\carolina-aerial-site\\\\.claude\")",
       "Bash(Remove-Item -ErrorAction SilentlyContinue \"C:\\\\Users\\\\pebenbow\\\\Documents\\\\repos\\\\carolina-aerial-site\\\\contact.html\")",
-      "Bash(git add *)"
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(git push *)"
     ]
   }
 }
