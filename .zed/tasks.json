@@ -19,5 +19,19 @@
     "use_new_terminal": true,
     "allow_concurrent_runs": false,
     "reveal": "always"
+  },
+  {
+    "label": "Git: Stage and Commit",
+    "command": "$msg = Read-Host 'Commit message'; if ($msg) { git add -A; if ($?) { git commit -m $msg } }",
+    "use_new_terminal": true,
+    "allow_concurrent_runs": false,
+    "reveal": "always"
+  },
+  {
+    "label": "Git: Push",
+    "command": "git push",
+    "use_new_terminal": true,
+    "allow_concurrent_runs": false,
+    "reveal": "always"
   }
 ]
